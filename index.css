@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    color-scheme: light dark;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 5%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="radio"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculated-data {
+    background-color: red;
+}
+
+
+    
+
+
+    

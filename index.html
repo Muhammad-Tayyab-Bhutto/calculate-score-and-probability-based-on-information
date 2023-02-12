@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Page 1: Enter data -->
+    <div id="page1">
+        <h2>Enter your data</h2>
+        <form id="data-form">
+            <div class="form-group">
+                <label for="field1">Field 1</label>
+                <input type="text" id="field1" name="field1">
+            </div>
+            <div class="form-group">
+                <label for="field2">Field 2</label>
+                <input type="text" id="field2" name="field2">
+            </div>
+            <!-- Add more form fields as needed -->
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <!-- Page 2: Enter marks -->
+    <div id="page2" style="display: none;">
+        <h2>Enter your marks</h2>
+        <form id="marks-form">
+            <div class="form-group">
+                <label for="mark1">Mark 1</label>
+                <input type="text" id="mark1" name="mark1">
+            </div>
+            <div class="form-group">
+                <label for="mark2">Mark 2</label>
+                <input type="text" id="mark2" name="mark2">
+            </div>
+            <!-- Add more form fields as needed -->
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <!-- Page 3: Choose formation -->
+    <div id="page3" style="display: none;">
+        <h2>Choose a formation</h2>
+        <form id="formation-form">
+            <div class="form-group">
+                <input type="radio" id="formation1" name="formation" value="Formation 1">
+                <label for="formation1">Formation 1</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="formation2" name="formation" value="Formation 2">
+                <label for="formation2">Formation 2</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" id="formation3" name="formation" value="Formation 3">
+                <label for="formation3">Formation 3</label>
+            </div>
+            <!-- Add more form fields as needed -->
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <!-- Page 4: Calculate score -->
+    <div id="page4" style="display: none;">
+        <h2>Your score</h2>
+        <p id="score">Score: ...</p>
+        <button id="continue-button">Continue</button>
+    </div>
+
+    <!-- Page 5: Calculate probability of admission -->
+    <div id="page5" style="display: none;">
+        <h2>Admission probability</h2>
+        <p id="probability">Probability: ...</p>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
